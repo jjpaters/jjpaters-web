@@ -1,0 +1,22 @@
+[
+    {
+        "position": "SYSTEMS ARCHITECT",
+        "company": "QUICKEN LOANS",
+        "description": "Work with a team of senior engineers to design a architectural roadmap to enable future business features in the loss mitigation platform."
+    },
+    {
+        "position": "SENIOR SOFTWARE ENGINEER",
+        "company": "QUICKEN LOANS",
+        "description": "Work with a team of engineers to design, develop, test, and deploy solutions to support the loss mitigation process. Utilized Angular for the front-end, multiple REST API’s, and Window Services for the backend."
+    },
+    {
+        "position": "SOFTWARE ENGINEER",
+        "company": "QUICKEN LOANS",
+        "description": "Work with a team of engineers to design, develop, test, and deploy solutions to support the loss mitigation process. Utilized AngularJS for the front-end, multiple REST API’s, and Window Services for the backend."
+    },
+    {
+        "position": "SOLUTION CONSULTANT",
+        "company": "NEW WORLD SYSTEMS",
+        "description": "Work with customers during the design, development, and testing phase to create software solutions that interact between New World Systems and third-party solutions."
+    }
+]

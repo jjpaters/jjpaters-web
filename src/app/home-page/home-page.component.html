@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="jumbotron">
+        <h1>Hello, I'm Justin</h1>
+        <p class="lead">
+            I'm a <strong class="text-success">Systems Architect</strong> with a history of working in the public sector
+            & financial services industries.
+        </p>
+    </div>
+
+    <section *ngIf="experiences">
+        <h2 class="text-center text-success">Experience</h2>
+        <div class="resume-card" *ngFor="let experience of experiences">
+            <h4>{{ experience.company }}</h4>
+            <span class="text-muted">{{ experience.position }}</span>
+            <p>
+                {{ experience.description }}
+            </p>
+            <hr>
+        </div>
+    </section>
+
+    <section *ngIf="educations">
+        <h2 class="text-center text-success">Education</h2>
+        <div class="resume-card" *ngFor="let education of educations">
+            <h4>{{ education.university }}</h4>
+            <span class="text-muted">{{ education.degree }}</span>
+            <hr>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="text-center text-success">Skills</h2>
+        <div class="resume-card">
+            <ul>
+                <li>.NET Framework / .NET CORE / C#</li>
+                <li>Angular / AngularJS / JavaScript</li>
+                <li>HTML / CSS</li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+<footer class="container footer-container">
+    <hr>
+    <a href="https://github.com/jjpaters" target="new">
+        <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+    </a>
+    <a href="https://www.linkedin.com/in/justinpaterson/" target="new">
+        <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+    </a>
+    <a href="https://twitter.com/jjpaters" target="new">
+        <img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
+    </a>
+</footer>

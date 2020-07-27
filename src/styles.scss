@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@import './styles/variables';
+@import '~bootstrap/scss/bootstrap';
+@import './styles/bootswatch';
+
+body {
+    padding-top: 6rem;
+}
+
+.footer-container {
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.footer-container > a {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.resume-card {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}

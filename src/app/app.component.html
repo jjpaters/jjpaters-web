@@ -1,4 +1,19 @@
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
+  <a class="navbar-brand" routerLink="/home" [routerLinkActive]="['active']" (click)="closeMenu()">@jjpaters</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+    aria-controls="navbarCollapse" [attr.aria-expanded]="navbarOpen" aria-label="Toggle navigation"
+    (click)="toggleNavbar()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse" [ngClass]="{ 'show': navbarOpen }">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/home" [routerLinkActive]="['active']" (click)="closeMenu()">Resume</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 <main>
-  <h1>@jjpaters</h1>
+  <app-notify></app-notify>
   <router-outlet></router-outlet>
 </main>

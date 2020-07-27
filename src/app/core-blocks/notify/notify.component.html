@@ -1,0 +1,5 @@
+<div class="container" *ngIf="notifyService.show">
+    <ngb-alert [type]="notifyService.alertType" (close)="close()">
+        <strong>{{ notifyService.title }}</strong> {{ notifyService.message }}
+    </ngb-alert>
+</div>
