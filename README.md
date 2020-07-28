@@ -1,3 +1,7 @@
+[![CircleCI](https://circleci.com/gh/jjpaters/jjpaters-web.svg?style=svg)](https://circleci.com/gh/jjpaters/jjpaters-web)
+[![Coverage Status](https://coveralls.io/repos/github/jjpaters/jjpaters-web/badge.svg?branch=master)](https://coveralls.io/github/jjpaters/jjpaters-web?branch=master)
+[![DeepScan grade](https://deepscan.io/api/teams/3232/projects/13089/branches/213845/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=3232&pid=13089&bid=213845)
+
 # @jjpaters
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
