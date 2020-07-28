@@ -8,13 +8,12 @@ describe('workspace-project App', () => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
+  it('should display @jjpaters', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('jjpaters-web app is running!');
+    expect(page.getTitleText()).toEqual('@jjpaters');
   });
 
   afterEach(async () => {
-    // Assert that there are no errors emitted from the browser
     const logs = await browser.manage().logs().get(logging.Type.BROWSER);
     expect(logs).not.toContain(jasmine.objectContaining({
       level: logging.Level.SEVERE,
